@@ -1,26 +1,43 @@
 <div align="center">
 
-# xaladzano-core
+# System Informer
 
-Custom lightweight launcher for Amazing Online built for pure performance and maximum control.
+A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.
+
+Brought to you by Winsider Seminars & Solutions, Inc.
 
 </div>
 
 ---
 
+## System requirements
+
+Windows 10 or higher, 32-bit or 64-bit.
+
 ## Features
 
-* **Extreme Injector**: Built-in tool panel integrated directly into the launcher interface for seamless management.
-* **Client Control**: Direct access to game directories, configuration files, and quick path checks.
-* **Low Footprint**: Minimal CPU and RAM usage with fast startup sequence.
-* **Custom UI**: Dark, clean interface tailored specifically for daily use.
+* A detailed overview of system activity with highlighting.
+* Graphs and statistics allow you quickly to track down resource hogs and runaway processes.
+* Can't edit or delete a file? Discover which processes are using that file.
+* See what programs have active network connections, and close them if necessary.
+* Get real-time information on disk access.
+* View detailed stack traces with kernel-mode, WOW64 and .NET support.
+* Go beyond services.msc: create, edit and control services.
+* Small, portable and no installation required.
+* 100% Free Software (MIT)
 
-## Installation
+## Building the project
 
-1. Download `launcher.exe` from the **Releases** section.
-2. Place it into your Amazing Online game directory.
-3. Run as Administrator and launch.
+Requires Visual Studio (2022 or later).
 
-## Support
+After cloning the repo run `build_init.cmd` located in the `build` directory, this doesn't not run again unless there are updates to the tools or third party libraries.
 
-If you encounter any issues or bugs, open an issue on the repository.
+Execute `build_release.cmd` located in the `build` directory to compile the project or load the `SystemInformer.sln` and `Plugins.sln` solutions if you prefer building the project using Visual Studio.
+
+You can download the free Visual Studio Community Edition to build the System Informer source code.
+
+See the build readme for more information or if you're having trouble building.
+
+## Enhancements/Bugs
+
+Please use the GitHub issue
