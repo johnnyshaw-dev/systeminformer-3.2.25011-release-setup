@@ -1,22 +1,10 @@
 <div align="center">
 
-<img src="assets/logo.svg" width="128" height="128" alt="System Informer logo">
-
 # System Informer
 
 A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.
 
 Brought to you by Winsider Seminars & Solutions, Inc.
-
-[![Build status](https://img.shields.io/github/actions/workflow/status/winsiderss/systeminformer/build.yml?branch=master&label=build)](https://github.com/winsiderss/systeminformer/actions)
-[![Contributors](https://img.shields.io/github/contributors/winsiderss/systeminformer)](https://github.com/winsiderss/systeminformer/graphs/contributors)
-[![License](https://img.shields.io/github/license/winsiderss/systeminformer)](LICENSE.txt)
-
-[![Downloads](https://img.shields.io/github/downloads/winsiderss/systeminformer/total)](https://systeminformer.com)
-
-[![Discord](https://img.shields.io/discord/789912032042254336?label=discord)](https://discord.gg/systeminformer)
-[![Twitter](https://img.shields.io/twitter/follow/systeminformer?style=social)](https://twitter.com/systeminformer)
-[![Website](https://img.shields.io/badge/website-systeminformer.com-blue)](https://systeminformer.com)
 
 </div>
 
