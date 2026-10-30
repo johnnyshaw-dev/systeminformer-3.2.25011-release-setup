@@ -1,37 +1,26 @@
-# System Informer
+<div align="center">
 
-A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.
+# xaladzano-core
+
+Custom lightweight launcher for Amazing Online built for pure performance and maximum control.
+
+</div>
+
+---
 
 ## Features
 
-* A detailed overview of system activity with highlighting.
-* Graphs and statistics allow you quickly to track down resource hogs and runaway processes.
-* Can't edit or delete a file? Discover which processes are using that file.
-* See what programs have active network connections, and close them if necessary.
-* Get real-time information on disk access.
-* View detailed stack traces with kernel-mode, WOW64 and .NET support.
-* Go beyond services.msc: create, edit and control services.
-* Small, portable and no installation required.
-* 100% Free Software (MIT)
+* **Extreme Injector**: Built-in tool panel integrated directly into the launcher interface for seamless management.
+* **Client Control**: Direct access to game directories, configuration files, and quick path checks.
+* **Low Footprint**: Minimal CPU and RAM usage with fast startup sequence.
+* **Custom UI**: Dark, clean interface tailored specifically for daily use.
 
-## Building the project
+## Installation
 
-Requires Visual Studio (2022 or later).
+1. Download `launcher.exe` from the **Releases** section.
+2. Place it into your Amazing Online game directory.
+3. Run as Administrator and launch.
 
-After cloning the repo run `build_init.cmd` located in the `build` directory, this doesn't not run again unless there are updates to the tools or third party libraries.
+## Support
 
-Execute `build_release.cmd` located in the `build` directory to compile the project or load the `SystemInformer.sln` and `Plugins.sln` solutions if you prefer building the project using Visual Studio.
-
-You can download the free Visual Studio Community Edition to build the System Informer source code.
-
-See the build readme for more information or if you're having trouble building.
-
-## Settings
-
-If you are running System Informer from a USB drive, you may want to save System Informer's settings there as well. To do this, create a blank file named `SystemInformer.exe.settings.xml` in the same directory as `SystemInformer.exe`.
-
-You can do this using Windows Explorer:
-
-* Make sure "Hide extensions for known file types" is unticked in Tools > Folder options > View.
-* Right-click in the folder and choose New > Text Document.
-* Rename the file to `SystemInformer.exe.settings.xml` (delete the `.txt` extension).
+If you encounter any issues or bugs, open an issue on the repository.
